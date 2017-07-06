@@ -1,0 +1,254 @@
+.checkbox {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px; 
+    margin-right:10px; 
+    line-height:18px;
+
+    color: black;
+ 
+}
+input[type=checkbox] {
+    display:none; 
+}
+.checkbox:before {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    vertical-align:middle;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    /*
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8); 
+    */
+    border-radius: 3px;
+    border: 1px black solid;
+}
+input[type=checkbox]:checked + .checkbox:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 38px;
+}
+
+
+#repeat_job_lable_2{
+    position: absolute;
+    top:38%;
+    left:6%;
+}
+
+#new_job_lable_2{
+    position: absolute;
+    top:38%;
+    left:40%;
+}
+
+#rep_or_chg_job_lable_2{
+    position: absolute;
+    top:38%;
+    left:76%;
+}
+
+#chg_to_txt_lable_2{
+    position: absolute;
+    top:42%;
+    left:20%;
+}
+
+#chg_to_pos_lable_2{
+    position: absolute;
+    top:42%;
+    left:34%;
+}
+
+#chg_to_clr_lable_2{
+    position: absolute;
+    top:42%;
+    left:46%;
+}
+
+#chg_to_mat_lable_2{
+    position: absolute;
+    top:42%;
+    left:58%;
+}
+
+#chg_to_size_lable_2{
+    position: absolute;
+    top:42%;
+    left:70%;
+}
+
+#txt_img_as_proof_lable_2{
+    position: absolute;
+    top:45%;
+    left:20%;
+}
+
+#txt_img_as_clr_key_lable_2{
+    position: absolute;
+    top:45%;
+    left:34%;
+}
+#txt_img_as_pht_lable_2{
+    position: absolute;
+    top:45%;
+    left:46%;
+}
+#txt_img_as_sample_lable_2{
+    position: absolute;
+    top:45%;
+    left:58%;
+}
+
+#pos_as_layout_lable_2{
+    position: absolute;
+    top:48%;
+    left:20%;
+}
+
+#pos_as_pht_lable_2{
+    position: absolute;
+    top:48%;
+    left:34%;
+}
+
+#pos_as_sample_lable_2{
+    position: absolute;
+    top:48%;
+    left:46%;
+}
+
+#color_as_contract_lable_2{
+    position: absolute;
+    top:51%;
+    left:20%;
+}
+
+#color_as_drawdowns_lable_2{
+    position: absolute;
+    top:51%;
+    left:34%;
+}
+
+#color_as_squence_lable_2{
+    position: absolute;
+    top:51%;
+    left:46%;
+}
+
+#color_as_sample_lable_2{
+    position: absolute;
+    top:51%;
+    left:58%;
+}
+
+
+#cylinder_div{
+   position: absolute;
+   left: 1%;
+   top:21%;
+   width: 98%;
+   height: 118px;
+   border: 0px red solid;
+}
+
+#cylinder_a_lable{
+    position: relative;
+    left:5%;
+}
+
+#cylinder_b_lable{
+    position: relative;
+    left:5%;
+}
+
+#cylinder_c_lable{
+    position: relative;
+    left:5%;
+}
+
+#cylinder_d_lable{
+    position: relative;
+    left:5%;
+}
+
+#cylinder_e_lable{
+    position: relative;
+    left:5%;
+}
+
+#cylinder_f_lable{
+    position: relative;
+    left:5%;
+}
+
+#cylinder_g_lable{
+    position: relative;
+    left:5%;
+}
+
+#cylinder_h_lable{
+    position: relative;
+    left:5%;
+}
+
+#type_up_lable{
+    position: relative;
+    left:5%;
+}
+
+#type_down_lable{
+    position: relative;
+    left:5%;
+}
+
+#type_left_lable{
+    position: relative;
+    left:5%;
+}
+
+#type_right_lable{
+    position: relative;
+    left:5%;
+}
+
+#type_v_lable{
+    position: relative;
+    left:5%;
+    display: none;
+}
+
+#type_h_lable{
+    position: relative;
+    left:5%;
+    display: none;
+}
+
+#eysspot_p{
+    position: absolute;
+    top:46%;
+    right:56%;
+}
+
+#eyespot_nw_lable{
+    position: absolute;
+    right:51%;
+}
+
+#eyespot_ne_lable{
+    position: absolute;
+    right:41%;
+}
+
+#eyespot_sw_lable{
+    position: absolute;
+    right:46%;
+}
+
+#eyespot_se_lable{
+    position: absolute;
+    right:36%;
+}

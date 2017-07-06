@@ -1,0 +1,290 @@
+
+.form_div{    
+    line-height:20px;
+    background-color: white;
+    position:absolute;
+    font-size: 100%;
+    font-family: tahoma, arial;
+    color:black;
+}
+
+
+
+
+
+
+#form_1 {
+    position: fixed;
+    height:280px;
+    width:18%;
+    margin-left: 1%;  
+    margin-top: 10px;
+
+    border: 0px solid #45c0ef;   
+    
+    border-radius: 18px;
+
+    background: rgba(241,231,103,1);
+    background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+    background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+
+    /*
+
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+        -webkit-gradient(linear, 0 0, 0 100%, from(#45c0ef), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+        -webkit-linear-gradient(#45c0ef, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+        -moz-linear-gradient(#45c0ef, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image:
+        -o-linear-gradient(#45c0ef, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+        linear-gradient(to bottom, #45c0ef, rgba(0, 0, 0, 0)) 1 100%;
+    */
+}
+
+
+
+#form_2 {
+    position: absolute;
+    height:1380px;
+    width:280mm; 
+    margin-top: 0px;
+    left:20%;
+    border: 1px solid #45c0ef; 
+    overflow: auto;
+    line-height: 1px;   
+    background-color:  #a6c9e2;
+
+
+    display: block;
+
+
+}
+
+#form_3 {
+    position: absolute;
+    height:1380px;
+    width:280mm;
+    margin-top: 1390px;
+    left:20%;
+    border: 0px solid #45c0ef; 
+    overflow: auto;
+    line-height: 1px;   
+    background-color:  #a6c9e2;
+
+
+    display: block;
+
+
+}
+
+
+#form_4 {
+    height:560px;
+    width:20%;
+    margin-left: 5%;
+
+
+}
+
+
+/* page layout */
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#slogan {
+    width:80%;
+    height:60px;
+    line-height:60px;
+    border:0px red solid;
+    margin:0px auto;
+    position:relative;
+    margin-top: 1px;
+    /*
+     text-align: center;
+    */
+    vertical-align:middle;
+    font-size: 100%;
+    font-family: tahoma, arial;
+    color:black;
+
+
+}
+
+#img1{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0.8%;
+
+
+}
+
+#img2{
+    position: absolute;
+    left: 0%;
+    top: 30%;
+}
+
+#img3{
+    position: absolute;
+    left: 0%;
+    top: 59%;
+}
+
+#img4{
+    position: absolute;
+    top:72.8%;
+    right:66%;
+}
+
+#img5{
+    position: absolute;
+    top:8%;
+    right:72%;
+}
+
+
+
+.slogan_1{
+    position: absolute;
+    left: 36%;
+    margin-top: 0%;
+    color:   #007357;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+
+.sign_in{
+    position: absolute;
+    float:right;
+    right: 5%;
+    top:0%;
+    font-size: 10pt;
+    color: #999999;
+}
+
+.sign_in:hover{
+
+    color: #009933;
+
+}
+
+#signed_user{
+    position: relative;
+    float:right;
+    right: 8%;
+    top:0%;
+    font-size: 10pt;
+    color: #999999;
+    display:none;
+}
+
+#log_out{
+    position: absolute;
+    float:right;
+    right: 2%;
+    top:0%;
+    font-size: 10pt;
+    color: #999999;
+    display:none;
+}
+
+#log_out:hover{
+    color: #009933;
+}
+
+#login_msg{
+    color: red;
+    font-size: small;
+    display: none;
+}
+
+
+#header {
+    width:99.8%;
+    height:60px;
+    line-height:60px;
+    border:0px red solid;
+    background-color: #00A250;
+    position:relative;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 100%;
+    font-family: tahoma, arial;
+    color:white;
+
+
+}
+
+.txt1 {
+    display: inline-block;
+    position:absolute;
+    padding-left: 0%;
+
+}
+
+.header_txt1{
+    color:white;
+    position: absolute;
+    font-weight: bold;
+    margin: 0 auto;
+    left:40%;
+}
+
+#middle {     
+    width:99.8%;
+    height:600px;
+    line-height:600px;
+    border:0px red solid;
+    background-color: white;
+    position:absolute;
+    margin-top: 1%;
+    margin-left: 1px;
+    font-size: 100%;
+    font-family: tahoma, arial;
+    color:black;
+
+
+}
+
+
+
+
+
+
+#footer {
+    width:99.8%;
+    height:200px;
+    /*
+    line-height:200px;
+    */
+    border:0px red solid;
+    background-color: #00A250;
+    position: absolute;
+    margin-top: 2800px;
+    margin-left: 1px;
+    font-size: 100%;
+    font-family: tahoma, arial;
+    color:white;
+
+    text-align:center;
+}
+
+
+
+
+
+
+
